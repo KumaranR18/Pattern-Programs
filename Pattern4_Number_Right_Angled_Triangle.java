@@ -15,8 +15,8 @@ class Pattern4_Number_Right_Angled_Triangle{
         System.out.print("Enter the value of n: ");
         int n = sc.nextInt();
         for(int row = 1; row <= n; row++){
-            for(int col = 1; col <= n; col++){
-                System.out.print(row+" ");
+            for(int col = 1; col <= row; col++){
+                System.out.print(col + " ");
             }
             System.out.print("\n");
         }

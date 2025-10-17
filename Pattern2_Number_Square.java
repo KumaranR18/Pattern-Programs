@@ -16,7 +16,7 @@ class Pattern2_Number_Square{
         int n = sc.nextInt();
         for(int row = 1; row <= n; row++){
             for(int col = 1; col <= n; col++){
-                System.out.print(row+" ");
+                System.out.print(row + " ");
             }
             System.out.print("\n");
         }

@@ -14,7 +14,7 @@ import java.util.*;
 class Pattern28_Spiral_Pattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-	System.out.print("Enter the value of n: "); 
+        System.out.print("Enter the value of n: "); 
         int n = sc.nextInt();
         int data = 1;
         int[][] db = new int[n][n];
@@ -43,7 +43,7 @@ class Pattern28_Spiral_Pattern {
             left++;
         }
 
-        for (int i = 0; i < n; i++) {                 // Printing the Matrix
+        for (int i = 0; i < n; i++) {                 // Printing the Spiral Matrix
             for (int j = 0; j < n; j++) {
                 System.out.printf("%02d ", db[i][j]);
             }

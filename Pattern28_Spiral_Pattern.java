@@ -14,7 +14,7 @@ import java.util.*;
 class Pattern28_Spiral_Pattern {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-	System.out.print("Enter the value of n: ");
+	System.out.print("Enter the value of n: "); 
         int n = sc.nextInt();
         int data = 1;
         int[][] db = new int[n][n];
